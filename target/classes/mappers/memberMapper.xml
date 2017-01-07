@@ -3,7 +3,7 @@
 	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 	
-	<mapper namespace="com.who1sht1s.mapper.MemberMapper">
+	<mapper namespace="com.who1sth1s.mapper.MemberMapper">
 		
 		<select id="getTime" resultType="string">
 			select now()
@@ -14,11 +14,11 @@
 			( #{userid}, #{userpw}, #{username}, #{email} )
 		</insert>
 		
-		<select id="selectMember" resultType="com.dubbing.domain.MemberVO">
+		<select id="selectMember" resultType="com.who1sth1s.domain.MemberVO">
 			select * from tbl_member where userid = #{userid}
 		</select>
 		
-		<select id="readWithPW" resultType="com.dubbing.domain.MemberVO">
+		<select id="readWithPW" resultType="com.who1sth1s.domain.MemberVO">
 			select * from tbl_member where userid = #{userid} and userpw = #{userpw}
 		</select>
 		

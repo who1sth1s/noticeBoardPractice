@@ -1,4 +1,4 @@
-package persistence;
+package com.who1sth1s.persistence;
 
 import com.who1sth1s.domain.MemberVO;
 

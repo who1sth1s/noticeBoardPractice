@@ -1,4 +1,4 @@
-package persistence;
+package com.who1sth1s.persistence;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -16,7 +16,7 @@ public class MemberDAOImpl implements MemberDAO{
 	@Inject
 	private SqlSession sqlSession;
 	
-	private static final String namespace = "com.dubbing.mapper.MemberMapper";
+	private static final String namespace = "com.who1sth1s.mapper.MemberMapper";
 	
 	@Override
 	public String getTime() {

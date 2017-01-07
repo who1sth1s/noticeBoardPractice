@@ -29,7 +29,7 @@ public class MemberDAOTest {
 	public void testInsertMember() throws Exception {
 		
 		MemberVO memberVO = new MemberVO();
-		memberVO.setUserid("user03");
+		memberVO.setUserid("user4");
 		memberVO.setUserpw("user00");
 		memberVO.setUsername("USER00");
 		memberVO.setEmail("user00@aaa.com");
